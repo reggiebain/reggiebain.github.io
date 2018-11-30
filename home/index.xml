@@ -2,122 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Reggie Bain @ UH</title>
-    <link>/home/</link>
+    <link>https://reggiebain.github.io/home/</link>
     <description>Recent content in Homes on Reggie Bain @ UH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0500</lastBuildDate>
     
-	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://reggiebain.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/about/</guid>
-      <description>Biography I am an Instructional Assistant Professor of Physics at the University of Houston. This fall, I am teaching PHYS 1301 at UH, including an Inquiry-based section at UH&amp;rsquo;s Active Learning Center @ Cougar Place. My current research interests include various projects in physics education and science communication, as well as theoretical nuclear/particle physics. My background is in QCD phenomenology and the applications of Effective Field Theories to problems in hadronic physics.</description>
+      <guid>https://reggiebain.github.io/home/about/</guid>
+      <description>Biography I am a theoretical nuclear/particle physicist with a deep interest in physics education research (PER). I am currently Instructional Assistant Professor of Physics at the University of Houston. This fall, I am teaching PHYS 1301, including an studio/inquiry-style section in UH&amp;rsquo;s Active Learning Classroom @ Cougar Place.
+My research background is in QCD and the applications of Effective Field Theories to the production of bound states of heavy quark/anti-quark pairs called quarkonia.</description>
     </item>
     
     <item>
-      <title>PHYS 1301</title>
-      <link>/home/1301/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/home/1301/</guid>
-      <description> First Day of Class &amp;ndash; Monday, August 20th Complete How to 1301 on TopHat &amp;ndash; DUE Friday, August 24th @ 11:59pm Register for Math Diagnostic Exam on CASA &amp;ndash; DUE Wednesday, September 5th Students in 26379 Mo 1-4pm class only - Map Directions to CPH 1020  </description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>/home/resources/</link>
+      <title>Teaching Portfolio Documents</title>
+      <link>https://reggiebain.github.io/home/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/home/resources/</guid>
+      <guid>https://reggiebain.github.io/home/resources/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Media</title>
-      <link>/home/media/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/home/media/</guid>
-      <description>Tweets by reggiebain  </description>
-    </item>
-    
-    <item>
       <title>Selected Publications</title>
-      <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications_selected/</guid>
+      <guid>https://reggiebain.github.io/home/publications_selected/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Publications</title>
-      <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/publications/</guid>
+      <guid>https://reggiebain.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>https://reggiebain.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
-      <link>/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/posts/</guid>
+      <guid>https://reggiebain.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>https://reggiebain.github.io/home/projects/</guid>
       <description> Science Communication  ComSciCon National Workshops ComSciCon-Triangle Workshops ParticleBites - The high energy physics reader&amp;rsquo;s digest  </description>
     </item>
     
     <item>
       <title>Custom Section</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/teaching/</guid>
+      <guid>https://reggiebain.github.io/home/teaching/</guid>
       <description>This is an example of using the custom widget to create your own homepage section.
 To remove this section, either delete content/home/teaching.md or edit the frontmatter of the file to deactivate the widget by setting active = false.</description>
     </item>
     
     <item>
       <title>Tags</title>
-      <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
       
-      <guid>/home/tags/</guid>
+      <guid>https://reggiebain.github.io/home/tags/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      <link>https://reggiebain.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
       
-      <guid>/home/contact/</guid>
+      <guid>https://reggiebain.github.io/home/contact/</guid>
       <description></description>
     </item>
     

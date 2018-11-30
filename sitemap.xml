@@ -5,8 +5,8 @@
     
     <url>
     
-      <loc>/unused-folders/post/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <loc>https://reggiebain.github.io/unused-md-files/1301/</loc>
+      <lastmod>2016-04-20T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -14,8 +14,8 @@
     
     <url>
     
-      <loc>/unused-folders/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <loc>https://reggiebain.github.io/unused-md-files/media/</loc>
+      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -23,8 +23,8 @@
     
     <url>
     
-      <loc>/unused-folders/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <loc>https://reggiebain.github.io/unused-folders/post/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -32,8 +32,8 @@
     
     <url>
     
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+      <loc>https://reggiebain.github.io/unused-folders/publication/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -41,7 +41,25 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://reggiebain.github.io/unused-folders/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://reggiebain.github.io/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://reggiebain.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -50,8 +68,8 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00-04:00</lastmod>
+      <loc>https://reggiebain.github.io/</loc>
+      <lastmod>2016-04-20T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -60,7 +78,7 @@
     
     <url>
     
-      <loc>/tags/</loc>
+      <loc>https://reggiebain.github.io/tags/</loc>
       <priority>0</priority>
     </url>
     
@@ -69,7 +87,17 @@
     
     <url>
     
-      <loc>/unused-folders/</loc>
+      <loc>https://reggiebain.github.io/unused-folders/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://reggiebain.github.io/unused-md-files/</loc>
+      <lastmod>2016-04-20T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
