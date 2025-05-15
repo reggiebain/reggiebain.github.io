@@ -54,6 +54,29 @@
 
   <title>Reginald Bain, PhD</title>
 
+  <style>
+    .studentpic {
+      width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .studentpic:hover {
+      transform: scale(1.05);
+    }
+
+    .project-title {
+      font-weight: 500;
+      margin-top: 0.5rem;
+      color: #333;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+  </style>
+
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
 
@@ -276,46 +299,54 @@
   </div>
 </section>
 
-
 <section id="resources" class="home-section">
-    <div class="container">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-12">
+        <h1>Teaching Portfolio</h1>
+      </div>
+    </div>
 
-<div class="row">
+    <div class="row text-center">
+      <!-- Item 1 -->
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <a href="https://app.tophat.com/e/859822" target="_blank">
+          <img class="img-fluid studentpic" src="img/tophat_button.png" alt="TopHat Interactive Samples" />
+          <p class="project-title">TopHat Interactive Samples</p>
+        </a>
+      </div>
 
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Teaching Portfolio</h1>
+      <!-- Item 2 -->
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <a href="documents/bain_course_evaluations.pdf" target="_blank">
+          <img class="img-fluid studentpic" src="img/houston_button.png" alt="Course Evaluation Summary" />
+          <p class="project-title">Course Evaluation Summary</p>
+        </a>
+      </div>
 
-  </div>
+      <!-- Item 3 -->
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <a href="documents/sample_syllabus.pdf" target="_blank">
+          <img class="img-fluid studentpic" src="img/1301 syllabus.png" alt="Sample Syllabus" />
+          <p class="project-title">Sample Syllabus</p>
+        </a>
+      </div>
 
-  <div class="col-xs-12 col-md-8">
+      <!-- Item 4 -->
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <a href="https://comscicon.com" target="_blank">
+          <img class="img-fluid studentpic" src="img/comscicon-logo.png" alt="ComSciCon Workshops" />
+          <p class="project-title">ComSciCon Workshops</p>
+        </a>
+      </div>
 
-          <div class="row">
-
-                  <ul class="ul-students">
-
-                    <li class="ul-students" title="TopHat Interactive Samples">
-                      <a href="https://app.tophat.com/e/859822", target="_blank"><img class="studentpic" src="img/tophat_button.png"></a>
-                    </li>
-
-                    <li class="ul-students" title="Course Evaluation Summary">
-                      <a href="documents/bain_course_evaluations.pdf", target="_blank"><img class="studentpic" src="img/houston_button.png"></a>
-                    </li>
-
-                    <li class="ul-students" title="Sample Syllabus">
-                      <a href="documents/sample_syllabus.pdf", target="_blank"><img class="studentpic" src="img/1301%20syllabus.png"></a>
-                    </li>
-
-                    <li class="ul-students" title="ComSciCon Workshops">
-                      <a href="https://comscicon.com", target="_blank"><img class="studentpic" src="img/comscicon-logo.png"></a>
-                    </li>
-
-                    <li class="ul-students" title="Grade Calculator">
-                      <a href="http://www.uh.edu/~rabain/grade_calculator.html", target="_blank"><img class="studentpic" src="img/calculator_button.png"></a>
-                    </li>
-
-                  </ul>
-
-            </div>
+      <!-- Item 5 -->
+      <div class="col-sm-6 col-lg-3 mb-4">
+        <a href="http://www.uh.edu/~rabain/grade_calculator.html" target="_blank">
+          <img class="img-fluid studentpic" src="img/calculator_button.png" alt="Grade Calculator" />
+          <p class="project-title">Grade Calculator</p>
+        </a>
+      </div>
     </div>
   </div>
 </section>
