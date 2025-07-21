@@ -267,13 +267,13 @@
   <div class="container">
     <div class="row mb-4">
       <div class="col-12">
-        <h1>Data Science/ML Projects</h1>
+        <h1 class="text-center">Data Science/ML Projects</h1>
       </div>
     </div>
 
-    <div class="row text-center">
+    <div class="row text-center justify-content-center">
       <!-- Project 1 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/reviews-analyzer" target="_blank">
           <img class="img-fluid studentpic" src="img/app_logo.png" alt="Course Review Analyzer" />
           <p class="project-title">Course Review Analyzer</p>
@@ -281,7 +281,7 @@
       </div>
 
       <!-- Project 2 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/course-assistant-bot" target="_blank">
           <img class="img-fluid studentpic" src="img/RAG-logo.png" alt="Syllabus RAG Bot" />
           <p class="project-title">Syllabus RAG Bot</p>
@@ -289,7 +289,7 @@
       </div>
 
       <!-- Project 3 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/cfb-modeling-erdos" target="_blank">
           <img class="img-fluid studentpic" src="img/football-logo.png" alt="College Football Modeling" />
           <p class="project-title">Predicting College Football Wins</p>
@@ -297,7 +297,7 @@
       </div>
 
       <!-- Project 4 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/song-similarity-erdos" target="_blank">
           <img class="img-fluid studentpic" src="img/cover-songs.png" alt="Song Similarity" />
           <p class="project-title">Song Similarity Detection</p>
@@ -305,14 +305,15 @@
       </div>
 
       <!-- Project 5 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/essay-autograder" target="_blank">
           <img class="img-fluid studentpic" src="img/autograder.jpg" alt="Essay Autograder" />
           <p class="project-title">Essay Autograder API</p>
         </a>
       </div>
-    <!-- Project 6 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+
+      <!-- Project 6 -->
+      <div class="col-12 col-sm-6 col-lg-4 mb-4 d-flex flex-column align-items-center">
         <a href="https://github.com/reggiebain/review-classifier-api" target="_blank">
           <img class="img-fluid studentpic" src="img/sentibrew.jpg" alt="Sentibrew API" />
           <p class="project-title">Sentiment Analysis API</p>
@@ -321,6 +322,39 @@
     </div>
   </div>
 </section>
+
+<style>
+  .home-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+
+  .project-title {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .studentpic {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+</style>
 
 <section id="resources" class="home-section">
   <div class="container">
