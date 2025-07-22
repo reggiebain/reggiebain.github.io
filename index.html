@@ -360,13 +360,13 @@
   <div class="container">
     <div class="row mb-4">
       <div class="col-12">
-        <h1>Teaching Portfolio</h1>
+        <h1 class="text-center">Teaching Portfolio</h1>
       </div>
     </div>
 
-    <div class="row text-center">
+    <div class="row text-center justify-content-center">
       <!-- Item 1 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://app.tophat.com/e/859822" target="_blank">
           <img class="img-fluid studentpic" src="img/tophat_button.png" alt="TopHat Interactive Samples" />
           <p class="project-title">TopHat Interactive Samples</p>
@@ -374,7 +374,7 @@
       </div>
 
       <!-- Item 2 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/Course Evaluation Summary - Bain.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/survey_icon.png" alt="Course Evaluation Summary" />
           <p class="project-title">Course Evaluation Summary</p>
@@ -382,7 +382,7 @@
       </div>
 
       <!-- Item 3 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/sample_syllabus.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/1301 syllabus.png" alt="UH Syllabus" />
           <p class="project-title">UH Syllabus</p>
@@ -390,7 +390,7 @@
       </div>
 
       <!-- Item 4 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://comscicon.com" target="_blank">
           <img class="img-fluid studentpic" src="img/comscicon-logo.png" alt="ComSciCon Workshops" />
           <p class="project-title">ComSciCon Workshops</p>
@@ -398,7 +398,7 @@
       </div>
 
       <!-- Item 5 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="http://www.uh.edu/~rabain/grade_calculator.html" target="_blank">
           <img class="img-fluid studentpic" src="img/calculator_button.png" alt="Grade Calculator" />
           <p class="project-title">Grade Calculator</p>
@@ -406,30 +406,64 @@
       </div>
 
       <!-- Item 6 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/bain_cv.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/cv_icon.png" alt="Academic CV" />
           <p class="project-title">Academic CV</p>
         </a>
-      </div>  
-      
+      </div>
+
       <!-- Item 7 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://docs.google.com/document/d/1w7fuTRritsPfVEF4YwjdLoo-9aUjfjSqtVsvEB6xPoc/edit?tab=t.0" target="_blank">
           <img class="img-fluid studentpic" src="img/gssm_logo.png" alt="GSSM Syllabus" />
           <p class="project-title">GSSM Syllabus</p>
         </a>
       </div>
+
       <!-- Item 8 -->
-      <div class="col-sm-6 col-lg-3 mb-4">
+      <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/Teaching Statement - Bain.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/teaching_statement_icon.png" alt="Teaching Statement" />
           <p class="project-title">Teaching Statement</p>
         </a>
-      </div>          
+      </div>
     </div>
   </div>
 </section>
+
+<style>
+  .home-section {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+
+  .project-title {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .studentpic {
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .col-sm-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .col-lg-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+</style>
 
 
 <section id="contact" class="home-section">
