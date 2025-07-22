@@ -365,7 +365,7 @@
     </div>
 
     <div class="row text-center justify-content-center">
-      <!-- Item 1 -->
+      <!-- Row 1 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://app.tophat.com/e/859822" target="_blank">
           <img class="img-fluid studentpic" src="img/tophat_button.png" alt="TopHat Interactive Samples" />
@@ -373,7 +373,6 @@
         </a>
       </div>
 
-      <!-- Item 2 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/Course Evaluation Summary - Bain.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/survey_icon.png" alt="Course Evaluation Summary" />
@@ -381,7 +380,6 @@
         </a>
       </div>
 
-      <!-- Item 3 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/sample_syllabus.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/1301 syllabus.png" alt="UH Syllabus" />
@@ -389,7 +387,6 @@
         </a>
       </div>
 
-      <!-- Item 4 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://comscicon.com" target="_blank">
           <img class="img-fluid studentpic" src="img/comscicon-logo.png" alt="ComSciCon Workshops" />
@@ -397,7 +394,7 @@
         </a>
       </div>
 
-      <!-- Item 5 -->
+      <!-- Row 2 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="http://www.uh.edu/~rabain/grade_calculator.html" target="_blank">
           <img class="img-fluid studentpic" src="img/calculator_button.png" alt="Grade Calculator" />
@@ -405,7 +402,6 @@
         </a>
       </div>
 
-      <!-- Item 6 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/bain_cv.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/cv_icon.png" alt="Academic CV" />
@@ -413,7 +409,6 @@
         </a>
       </div>
 
-      <!-- Item 7 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="https://docs.google.com/document/d/1w7fuTRritsPfVEF4YwjdLoo-9aUjfjSqtVsvEB6xPoc/edit?tab=t.0" target="_blank">
           <img class="img-fluid studentpic" src="img/gssm_logo.png" alt="GSSM Syllabus" />
@@ -421,7 +416,6 @@
         </a>
       </div>
 
-      <!-- Item 8 -->
       <div class="col-12 col-sm-6 col-lg-3 mb-4 d-flex flex-column align-items-center">
         <a href="documents/Teaching Statement - Bain.pdf" target="_blank">
           <img class="img-fluid studentpic" src="img/teaching_statement_icon.png" alt="Teaching Statement" />
@@ -442,12 +436,15 @@
     margin-top: 10px;
     font-size: 1.1rem;
     font-weight: bold;
+    word-wrap: break-word;
+    max-width: 100%;
   }
 
   .studentpic {
     max-width: 200px;
-    height: auto;
+    height: 150px; /* Fixed height to ensure uniformity */
     object-fit: cover;
+    border-radius: 5px;
   }
 
   @media (max-width: 768px) {
@@ -462,6 +459,12 @@
       flex: 0 0 25%;
       max-width: 25%;
     }
+  }
+
+  /* Ensure the row wraps correctly */
+  .row.justify-content-center {
+    display: flex;
+    flex-wrap: wrap;
   }
 </style>
 
